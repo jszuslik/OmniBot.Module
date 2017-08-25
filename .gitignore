@@ -1,0 +1,13 @@
+/packages
+/.vs
+/OmniBot.API/bin
+/OmniBot.API/obj
+/OmniBot.API.Tests
+/OmniBot.APIModels/bin
+/OmniBot.APIModels/obj
+/OmniBot.DataClasses/bin
+/OmniBot.DataClasses/obj
+/OmniBot.DataModel/bin
+/OmniBot.DataModel/obj
+/OmniBot.Services/bin
+/OmniBot.Services/obj
