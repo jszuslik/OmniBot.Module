@@ -90,7 +90,8 @@ namespace OmniBot.Services
 
         public Boolean DeletePerson(Person person)
         {
-            Context.Entry(person).State = System.Data.Entity.EntityState.Modified;
+            Context.Entry(person).State = System.Data.Entity.EntityState.Deleted;
+            
             Context.SaveChanges();
 
             return person == null;

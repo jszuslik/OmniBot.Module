@@ -4,9 +4,6 @@ using OmniBot.DataClasses;
 using OmniBot.Services.Interfaces;
 using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Net.Http;
-using System.Runtime.Serialization.Formatters.Binary;
 using System.Web.Http;
 using System.Web.Http.Cors;
 
@@ -66,7 +63,7 @@ namespace OmniBot.API.Controllers
         public Boolean DeletePerson(Person person)
         {
             Person per = person;
-            PeopleService.DeletePerson(person);
+            // PeopleService.DeletePerson(person);
 
 
             return PeopleService.DeletePerson(person);
